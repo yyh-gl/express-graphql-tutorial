@@ -1,0 +1,24 @@
+{
+  "name": "express-graphql-tutorial",
+  "version": "1.0.0",
+  "description": "Express で GraphQL 入門",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyh-gl/express-graphql-tutorial.git"
+  },
+  "author": "yyh-gl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyh-gl/express-graphql-tutorial/issues"
+  },
+  "homepage": "https://github.com/yyh-gl/express-graphql-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  }
+}
