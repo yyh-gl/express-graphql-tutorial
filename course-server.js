@@ -57,7 +57,9 @@ var getCourse = function(args) {
 var getCourses = function(args) {
     if (args.topic) {
         var topic = args.topic;
-        return coursesData.filter(course = course.topic === topic);
+        return coursesData.filter(course => {
+            return course.topic === topic
+        });
     } else {
         return coursesData;
     }
