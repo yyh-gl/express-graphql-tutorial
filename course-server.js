@@ -47,6 +47,7 @@ var coursesData = [
 ];
 
 // GraphQL schemaで使用する関数を作成
+// 指定IDのコースをひとつ取得
 var getCourse = function(args) {
     var id = args.id;
     return coursesData.filter(course => {
@@ -54,6 +55,7 @@ var getCourse = function(args) {
     })[0];
 };
 
+// 指定トピックに一致するコースを全て取得
 var getCourses = function(args) {
     if (args.topic) {
         var topic = args.topic;
