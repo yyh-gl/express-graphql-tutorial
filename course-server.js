@@ -44,7 +44,7 @@ var coursesData = [
         topic: 'JavaScript',
         url: 'https://codingthesmartway.com/courses/understand-javascript/'
     }
-]
+];
 
 // GraphQL schemaで使用する関数を作成
 var getCourse = function(args) {
@@ -52,7 +52,7 @@ var getCourse = function(args) {
     return coursesData.filter(course => {
         return course.id == id;
     })[0];
-}
+};
 
 var getCourses = function(args) {
     if (args.topic) {
@@ -61,7 +61,7 @@ var getCourses = function(args) {
     } else {
         return coursesData;
     }
-}
+};
 
 // Root resolverを設定
 var root = {
