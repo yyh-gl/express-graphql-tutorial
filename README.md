@@ -10,10 +10,10 @@
 
 ## サンプルプログラムを動かしてみる
 - Hello World を返すだけのGraphQLサーバ
-    - `node hello-world-server.js`
+  - `$ node hello-world-server.js`
 
 - コース情報を取得するGraphQLサーバ（参考サイトのやつ）
-  - `node course-server.js`
+  - `$ node course-server.js`
   
 - コース情報を取得するGraphQLサーバ 簡略版
-  - `node simple-course-server.js`
+  - `$ node simple-course-server.js`
