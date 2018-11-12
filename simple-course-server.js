@@ -11,6 +11,7 @@ var schema = buildSchema(`
  type Course {
  id: Int
  title: String
+ author: String
  }
 `);
 
@@ -18,15 +19,18 @@ var schema = buildSchema(`
 var coursesData = [
     {
         id: 1,
-        title: 'The Complete Node.js Developer Course'
+        title: 'Node.js入門',
+        author: 'Node 太郎'
     },
     {
         id: 2,
-        title: 'Node.js, Express & MongoDB Dev to Deployment'
+        title: 'Rails入門',
+        author: 'Matz'
     },
     {
         id: 3,
-        title: 'JavaScript: Understanding The Weird Parts'
+        title: 'JavaScript応用',
+        author: 'Java 花子'
     }
 ];
 
